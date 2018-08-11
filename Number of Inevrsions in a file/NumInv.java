@@ -1,14 +1,11 @@
 package myTests;
 
-//import java.util.*;  
 import java.io.File;
 import java.io.FileNotFoundException;
-//import java.util.Arrays;
 import java.util.Scanner;
 import java.math.BigInteger;
 
 public class NumInv {
-	
 	
 	static BigInteger Inv_Count(int[] arr, int n ) {
 		
@@ -29,7 +26,6 @@ public class NumInv {
 			
 			Ninv = Ninv.add(merge_Count(arr, tmp, lo, mid+1, hi));
 		}
-		//BigInteger b = BigInteger.valueOf(Ninv);
 		return Ninv;
 	}
 	
@@ -56,38 +52,11 @@ public class NumInv {
 			tmp[k++] = arr[j++];
 			
 		for( l=lo; l<=hi ;l++)
-			arr[l]=tmp[l]; //why this is copying only from lo to hi range??
-		// how this copying will be affect the other methods since it is not returned!!
-		//will this line change arr in sort_Count method??
-		//BigInteger a = BigInteger.valueOf(Ninv);
+			arr[l]=tmp[l]; 
 		return Ninv;
 	}
 	public static void main(String[] args) {
-		   /* File file = new File("IntegerArray.txt");
-			try {
-		    Scanner sc = new Scanner(file);
-	        while (sc.hasNextLine()) {
-	            int arr[i++] = sc.nextInt();
-	            //System.out.println(i);
-	        }
-	        sc.close();
-			}
-			catch(FileNotFoundException e){
-				e.printStackTrace();
-			}
-			*/
-			
-			/*BufferedReader in = new BufferedReader(new FileReader("H:\\New folder (2)\\Algorithms Design\\Divide and Conquer, Sorting and Searching, and Randomized Algorithms\\Week 2\\Programming Assignment\\IntegerArray.txt"));
-			String str;
-			List<String> list = new ArrayList<String>();
-			while((str = in.readLine()) != null){
-			    list.add(str);
-			}
-			String[] stringArr = list.toArray(new String[0]);
-			int[] arr =  new int[stringArr.length]; 
-			for (int i = 0; i < stringArr.length; i++) 
-			    arr[i] = Integer.parseInt(stringArr[i]);
-			    */
+		  
 			try {
 			 Scanner scan = new Scanner(new File("IntegerArray.txt")); //provide file name from outside
 		        int counter =0; //keep track of how many integers in the file
@@ -113,9 +82,7 @@ public class NumInv {
 				//e.printStackTrace();
 				System.out.println("Error in reading file");
 			}
-			//int[] arr = new int[] {1, 20, 6, 4, 5};
 			
-			//int C = Inv_Count(arr, arr.length-1);
 			//System.out.println("Number of inversion are = " + C);
 		}
 
