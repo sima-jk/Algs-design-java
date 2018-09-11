@@ -108,8 +108,6 @@ public class QuickSort_first {
 			arr[lo] = arr[i-1];
 			arr[i-1] = tmp;	
 			
-			//count += hi-lo; 
-			//System.out.println("count for p ="+ p+ ", Count = "+ count);
 			return i-1;
 		}
 		
