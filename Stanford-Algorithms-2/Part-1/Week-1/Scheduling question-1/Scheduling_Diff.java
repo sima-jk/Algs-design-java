@@ -1,7 +1,7 @@
 /**
  * Algorithms: Design and Analysis, Part 2
  * 
- * Programming Question - Week 1, September 2018.
+ * Programming Question 1 - Week 1, September 2018.
  * 
  * @author Sima Jeddi
  * 
