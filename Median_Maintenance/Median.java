@@ -1,6 +1,11 @@
 /**
- * @author SimaJeddi
+ * Algorithms: Design and Analysis, Part 2
  * 
+ * Programming Question - Week 3, August 2018.
+ * 
+ * @author Sima Jeddi
+ *
+ *
  * Input Format:
  * The text file contains a list of the integers from 1 to 10000 in unsorted 
  * order; you should treat this as a stream of numbers, arriving one by one.
