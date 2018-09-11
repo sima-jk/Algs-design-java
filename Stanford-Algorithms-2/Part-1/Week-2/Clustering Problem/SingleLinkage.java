@@ -9,7 +9,10 @@
  * Programming Question - Week 2, August 2018.
  * 
  * In this programming problem and the next you'll code up the clustering algorithm 
- * from lecture for computing a max-spacing k-clustering. Download the text file here.
+ * from lecture for computing a max-spacing k-clustering.
+ * 
+ * Download the text file "clustering1.txt"
+ * 
  * This file describes a distance function (equivalently, a complete graph with edge
  * costs). It has the following format:
  *
