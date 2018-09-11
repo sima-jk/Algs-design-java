@@ -23,6 +23,8 @@
  * Your task in this problem is to run the Huffman coding algorithm from lecture on this data
  * set. What is the maximum length of a codeword in the resulting Huffman code?
  *
+ * Continuing the previous problem, what is the minimum length of a codeword in your Huffman code?
+ *
  * ADVICE: If you're not getting the correct answer, try debugging your algorithm using some 
  * small test cases. And then post them to the discussion forum!
  *
